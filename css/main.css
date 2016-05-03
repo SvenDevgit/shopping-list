@@ -1,0 +1,126 @@
+body{
+	background-color: #f5d452;
+	font-family: bitter;
+}
+.main-header{
+	text-align: center;
+	color: #4281a4;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+#itm1{
+	height: 1,1em;
+	width: 10em;
+	font-size: 2em;
+	text-align: center;
+	color: #4281a4;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+#btn1{
+	height: 1,1em;
+	width: 3em;
+    font-size: 2em;
+	text-align: center;
+	color: #f5d452;
+	background-color: #4281a4;
+    position: absolute;
+    top: 9px;
+    left: 336px;
+    font-family: bitter;
+}
+/*
+div {
+  outline: red 1px solid;
+}
+*/
+ul{
+	list-style-type: none;
+}
+li {
+	margin: 6px 4px 6px 4px;
+}
+
+span{
+	margin: 6px 12px 6px 12px;
+	font-size: 1.5em;
+	color: #4281a4;;
+}
+
+
+
+.main {
+  background-color: #ececec;
+  margin-top: 50px;
+  padding-left: 100px;
+  min-width: 1200px;
+  height: 480px;
+  position: relative;
+  z-index: 1;
+}
+.div-shopping-list, .div-bagged
+{
+	background-repeat: no-repeat;
+}
+
+.form{
+  width: 350px;
+  height: 220px;
+  position: absolute;
+  float: left;
+  left:100px;
+  top:10px;
+
+}
+
+.div-shopping-list{
+  width: 300px;
+  height: 160px;
+  position: absolute;
+  float: left;
+  left:600px;
+  top:10px;
+}
+.ul-sl{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  float: left;
+  left:600px;
+  top:172px;
+  /*background-color: #ead2ac*/
+  background-color: #f8e2d5;
+}
+
+.div-bagged{
+  width: 300px;
+  height: 160px;
+  position: absolute;
+  float: left;
+  left:950px;
+  top:10px;
+}
+
+.ul-bagged{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  float: left;
+  left:950px;
+  top:172px;
+  /*background-color: #ead2ac;*/
+  background-color: #f8e2d5;
+}
+.div-shopping-list{
+  background-color: #31455d;
+  background-image: url('../images/shopping-list.jpg');
+}
+.div-bagged{
+  background-color: #31455d;	
+  background-image: url('../images/shopping-bag.jpg');
+}
